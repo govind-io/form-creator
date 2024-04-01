@@ -1,0 +1,504 @@
+{
+    "questions": [
+        {
+            "question": "What is Material-UI primarily used for in web development?",
+            "options": [
+                "Backend development",
+                "Database management",
+                "User interface design",
+                "Network security"
+            ],
+            "answer": "User interface design"
+        },
+        {
+            "question": "Which of the following is a valid component in MUI?",
+            "options": [
+                "<Container>",
+                "<Box>",
+                "<Frame>",
+                "<Wrapper>"
+            ],
+            "answer": "<Box>"
+        },
+        {
+            "question": "How do you apply a theme in MUI?",
+            "options": [
+                "Using the <ThemeProvider> component",
+                "Using the <ThemeApply> component",
+                "By calling the applyTheme() function",
+                "By setting the theme property in the main CSS file"
+            ],
+            "answer": "Using the <ThemeProvider> component"
+        },
+        {
+            "question": "Which hook is used in MUI for accessing the current theme?",
+            "options": [
+                "useTheme()",
+                "getTheme()",
+                "fetchTheme()",
+                "themeHook()"
+            ],
+            "answer": "useTheme()"
+        },
+        {
+            "question": "What MUI component is used for layout that uses a responsive grid?",
+            "options": [
+                "Grid",
+                "Box",
+                "Container",
+                "Flex"
+            ],
+            "answer": "Grid"
+        },
+        {
+            "question": "In MUI, what is the purpose of the 'variant' prop in a Button component?",
+            "options": [
+                "To set the type of button, like 'submit' or 'reset'",
+                "To define the style of the button, like 'contained', 'outlined'",
+                "To specify the size of the button",
+                "To set the color of the button"
+            ],
+            "answer": "To define the style of the button, like 'contained', 'outlined'"
+        },
+        {
+            "question": "Which MUI component is used to display a temporary message?",
+            "options": [
+                "Dialog",
+                "Snackbar",
+                "Tooltip",
+                "Alert"
+            ],
+            "answer": "Snackbar"
+        },
+        {
+            "question": "How can you override the default styles of an MUI component?",
+            "options": [
+                "Using the 'override' property",
+                "By passing a 'style' object",
+                "With the 'className' prop",
+                "All of the above"
+            ],
+            "answer": "With the 'className' prop"
+        },
+        {
+            "question": "What MUI feature allows for customizing theme variables globally?",
+            "options": [
+                "GlobalStyles",
+                "ThemeProvider",
+                "createTheme",
+                "customizeTheme"
+            ],
+            "answer": "createTheme"
+        },
+        {
+            "question": "Which prop would you use to align items in a Grid container vertically in MUI?",
+            "options": [
+                "alignItems",
+                "justifyContent",
+                "verticalAlign",
+                "alignVertical"
+            ],
+            "answer": "alignItems"
+        },
+        {
+            "question": "What is the default spacing unit in MUI's theme?",
+            "options": [
+                "8 pixels",
+                "10 pixels",
+                "12 pixels",
+                "15 pixels"
+            ],
+            "answer": "8 pixels"
+        },
+        {
+            "question": "Which MUI component is used to implement tabs navigation?",
+            "options": [
+                "NavBar",
+                "TabSwitch",
+                "Tabs",
+                "TabNav"
+            ],
+            "answer": "Tabs"
+        },
+        {
+            "question": "What property is used to set the maximum width of the MUI Container component?",
+            "options": [
+                "maxWidth",
+                "fixedWidth",
+                "limitWidth",
+                "constrainWidth"
+            ],
+            "answer": "maxWidth"
+        },
+        {
+            "question": "How can you use an icon from Material Icons in MUI?",
+            "options": [
+                "Using the <Icon> component",
+                "Using the <MaterialIcon> component",
+                "Using the <MUIIcon> component",
+                "Using the <SvgIcon> component"
+            ],
+            "answer": "Using the <Icon> component"
+        },
+        {
+            "question": "Which component in MUI is typically used for primary actions in an application?",
+            "options": [
+                "AppBar",
+                "Toolbar",
+                "FloatingActionButton",
+                "Card"
+            ],
+            "answer": "FloatingActionButton"
+        },
+        {
+            "question": "In MUI, which component is used as a surface for information that contains actions about a primary content?",
+            "options": [
+                "Paper",
+                "Card",
+                "Sheet",
+                "Block"
+            ],
+            "answer": "Card"
+        },
+        {
+            "question": "What function in MUI is used to create a custom theme?",
+            "options": [
+                "makeTheme()",
+                "createMuiTheme()",
+                "buildTheme()",
+                "generateTheme()"
+            ],
+            "answer": "createMuiTheme()"
+        },
+        {
+            "question": "In MUI, which component is used for displaying a large amount of scrollable content?",
+            "options": [
+                "ScrollBox",
+                "Drawer",
+                "Table",
+                "List"
+            ],
+            "answer": "List"
+        },
+        {
+            "question": "How do you make a button in MUI take the full width of its container?",
+            "options": [
+                "Using the 'fullWidth' prop",
+                "Setting the width to 100%",
+                "Using the 'stretch' prop",
+                "Applying the 'expand' prop"
+            ],
+            "answer": "Using the 'fullWidth' prop"
+        },
+        {
+            "question": "What is the MUI component for displaying a circular progress indicator?",
+            "options": [
+                "Spinner",
+                "CircularProgress",
+                "LoadingCircle",
+                "ProgressRing"
+            ],
+            "answer": "CircularProgress"
+        },
+        {
+            "question": "Which MUI component is used for entering a date and time?",
+            "options": [
+                "DateTimeField",
+                "DatePicker",
+                "DateTimePicker",
+                "DateInput"
+            ],
+            "answer": "DateTimePicker"
+        },
+        {
+            "question": "What MUI component provides a responsive hidden container for navigation or other items?",
+            "options": [
+                "Collapse",
+                "Drawer",
+                "Sidebar",
+                "Accordion"
+            ],
+            "answer": "Drawer"
+        },
+        {
+            "question": "In MUI, which prop is used to define the elevation or shadow of a Paper component?",
+            "options": [
+                "shadow",
+                "elevate",
+                "level",
+                "elevation"
+            ],
+            "answer": "elevation"
+        },
+        {
+            "question": "Which MUI component is designed to display a short, important message about the operation in a concise and non-intrusive manner?",
+            "options": [
+                "Alert",
+                "Snackbar",
+                "Banner",
+                "Toast"
+            ],
+            "answer": "Snackbar"
+        },
+        {
+            "question": "What MUI hook is used for making styles that can be applied to components?",
+            "options": [
+                "useStyles",
+                "makeStyles",
+                "createStyles",
+                "buildStyles"
+            ],
+            "answer": "makeStyles"
+        },
+        {
+            "question": "Which MUI component is used to group and separate content in a clear layout?",
+            "options": [
+                "Divider",
+                "Separator",
+                "Break",
+                "Line"
+            ],
+            "answer": "Divider"
+        },
+        {
+            "question": "In MUI, what property is used to control the size of the icon in an IconButton component?",
+            "options": [
+                "size",
+                "scale",
+                "fontSize",
+                "iconSize"
+            ],
+            "answer": "fontSize"
+        },
+        {
+            "question": "How do you implement a modal dialog in MUI?",
+            "options": [
+                "Using the Dialog component",
+                "Using the Modal component",
+                "Using the Popup component",
+                "Using the Overlay component"
+            ],
+            "answer": "Using the Dialog component"
+        },
+        {
+            "question": "What is the MUI utility function used for generating consistent spacing throughout the application?",
+            "options": [
+                "spacing",
+                "margin",
+                "padding",
+                "distance"
+            ],
+            "answer": "spacing"
+        },
+        {
+            "question": "Which MUI component is used to provide a clickable area for user interactions without additional styles?",
+            "options": [
+                "ButtonBase",
+                "Clickable",
+                "TouchRipple",
+                "ActionArea"
+            ],
+            "answer": "ButtonBase"
+        },
+        {
+            "question": "What MUI component acts as a navigation indicator for the current page location?",
+            "options": [
+                "Tracker",
+                "Navigator",
+                "Breadcrumb",
+                "Pathfinder"
+            ],
+            "answer": "Breadcrumb"
+        },
+        {
+            "question": "In MUI, which property of the Table component helps in making it more accessible by providing row and column identification?",
+            "options": [
+                "identify",
+                "label",
+                "aria-label",
+                "header"
+            ],
+            "answer": "aria-label"
+        },
+        {
+            "question": "What feature in MUI allows for custom styling of components using a hook API?",
+            "options": [
+                "styleOverride",
+                "useStyles",
+                "withStyles",
+                "makeStyles"
+            ],
+            "answer": "makeStyles"
+        },
+        {
+            "question": "Which MUI component provides an interface for user inputs in the form of text?",
+            "options": [
+                "TextField",
+                "InputField",
+                "EditText",
+                "TypeArea"
+            ],
+            "answer": "TextField"
+        },
+        {
+            "question": "How can you create a zebra-stripe effect on rows in a MUI Table component?",
+            "options": [
+                "Using the 'stripe' property",
+                "Applying alternate row styles with CSS",
+                "Using the 'zebra' prop",
+                "By setting the 'rowColor' function"
+            ],
+            "answer": "Applying alternate row styles with CSS"
+        },
+        {
+            "question": "What MUI component is specifically designed for displaying success, error, or warning messages?",
+            "options": [
+                "Message",
+                "Alert",
+                "Snackbar",
+                "Notification"
+            ],
+            "answer": "Alert"
+        },
+        {
+            "question": "In MUI, which component is best suited for displaying a list of dense content, like contacts or emails?",
+            "options": [
+                "DenseList",
+                "CompactList",
+                "ListItem",
+                "List"
+            ],
+            "answer": "List"
+        },
+        {
+            "question": "Which MUI utility helps in defining a color scheme that adapts to the user's system preference?",
+            "options": [
+                "useMediaQuery",
+                "createMuiTheme",
+                "useTheme",
+                "getColorScheme"
+            ],
+            "answer": "useMediaQuery"
+        },
+        {
+            "question": "What is the purpose of the 'elevation' property in MUI's Paper component?",
+            "options": [
+                "To set the background color",
+                "To define the z-index",
+                "To apply shadow depth",
+                "To adjust the opacity"
+            ],
+            "answer": "To apply shadow depth"
+        },
+        {
+            "question": "Which MUI component is typically used for secondary navigation within an application?",
+            "options": [
+                "Tabs",
+                "Sidebar",
+                "BottomNavigation",
+                "Drawer"
+            ],
+            "answer": "BottomNavigation"
+        },
+        {
+            "question": "In MUI, what is the correct way to add an icon to a Button component?",
+            "options": [
+                "Pass the icon name as a prop",
+                "Use the Icon component inside the Button",
+                "Set the icon in the Button's style",
+                "Icons cannot be added to buttons in MUI"
+            ],
+            "answer": "Use the Icon component inside the Button"
+        },
+        {
+            "question": "Which MUI component is used for displaying actions in a bottom sheet?",
+            "options": [
+                "BottomActions",
+                "Modal",
+                "Drawer",
+                "ActionSheet"
+            ],
+            "answer": "Drawer"
+        },
+        {
+            "question": "How do you align items horizontally in a MUI Grid container?",
+            "options": [
+                "Using the 'alignItems' prop",
+                "Using the 'justifyContent' prop",
+                "Using the 'horizontalAlign' prop",
+                "Using the 'alignContent' prop"
+            ],
+            "answer": "Using the 'justifyContent' prop"
+        },
+        {
+            "question": "What MUI component is used to collect user feedback in the form of ratings?",
+            "options": [
+                "Feedback",
+                "Rate",
+                "Rating",
+                "Score"
+            ],
+            "answer": "Rating"
+        },
+        {
+            "question": "In MUI, which component is best for displaying a large image with minimal UI?",
+            "options": [
+                "ImageView",
+                "Picture",
+                "ImageFrame",
+                "Lightbox"
+            ],
+            "answer": "Lightbox"
+        },
+        {
+            "question": "What property in the MUI Table component enables sticky header behavior?",
+            "options": [
+                "fixedHeader",
+                "stickyHeader",
+                "lockHeader",
+                "setHeader"
+            ],
+            "answer": "stickyHeader"
+        },
+        {
+            "question": "Which MUI component is used to show numerical values in a graphical, circular format?",
+            "options": [
+                "CircleGraph",
+                "CircularIndicator",
+                "CircularProgress",
+                "RoundDisplay"
+            ],
+            "answer": "CircularProgress"
+        },
+        {
+            "question": "In MUI, how do you enforce a specific number of columns in a Grid layout?",
+            "options": [
+                "Using the 'cols' prop",
+                "Setting the 'gridTemplateColumns' CSS property",
+                "Using the 'columnCount' prop",
+                "Specifying the 'xs' prop for each Grid item"
+            ],
+            "answer": "Specifying the 'xs' prop for each Grid item"
+        },
+        {
+            "question": "What MUI component is designed for temporarily blocking user interaction with the application?",
+            "options": [
+                "Blocker",
+                "Overlay",
+                "Backdrop",
+                "Shield"
+            ],
+            "answer": "Backdrop"
+        },
+        {
+            "question": "Which MUI hook is used for responsive layouts based on the window size?",
+            "options": [
+                "useWindow",
+                "useMediaQuery",
+                "useResponsive",
+                "useBreakpoint"
+            ],
+            "answer": "useMediaQuery"
+        }
+    ]
+}
